@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đăng ký - MiniShop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -24,32 +26,30 @@
             <p>
                 <label for="fullname">Họ và tên</label><br>
                 <input type="text" id="fullname" name="fullname"
-                       required minlength="2" maxlength="100" placeholder="Nguyễn Văn An">
+                    required minlength="2" maxlength="100" placeholder="Nguyễn Văn An">
             </p>
 
             <p>
                 <label for="email">Email</label><br>
                 <input type="email" id="email" name="email"
-                       required placeholder="ten@example.com">
+                required placeholder="ten@example.com">
             </p>
 
             <p>
                 <label for="password">Mật khẩu</label><br>
-                <input type="password" id="password" name="password"
-                       required minlength="6">
+                <input type="password" id="password" name="password" required minlength="6">
             </p>
 
             <p>
                 <label for="password2">Nhập lại mật khẩu</label><br>
-                <input type="password" id="password2" name="password2"
-                       required minlength="6">
+                <input type="password" id="password2" name="password2" required minlength="6">
             </p>
 
             <p>
                 <label for="phone">Số điện thoại</label><br>
                 <input type="tel" id="phone" name="phone"
-                       required pattern="0[0-9]{9}" placeholder="0912345678"
-                       title="Số điện thoại gồm 10 chữ số, bắt đầu bằng số 0">
+                    required pattern="0[0-9]{9}" placeholder="0912345678"
+                    title="Số điện thoại gồm 10 chữ số, bắt đầu bằng số 0">
             </p>
 
             <p>
